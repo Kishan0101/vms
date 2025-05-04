@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const AccessControl = require('../models/AccessControl');
+const AccessControl = require('../models/accessControl');
 const authMiddleware = require('../middleware/auth');
 
 // Get all access control rules (admin only)

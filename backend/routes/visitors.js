@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const Visitor = require('../models/Visitor');
-const User = require('../models/User');
+const Visitor = require('../models/visitor');
+const User = require('../models/user');
 const authMiddleware = require('../middleware/auth');
 
 // Configure nodemailer

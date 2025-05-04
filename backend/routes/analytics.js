@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
-const Visitor = require('../models/Visitor');
+const User = require('../models/user');
+const Visitor = require('../models/visitor');
 const authMiddleware = require('../middleware/auth');
 
 // Get analytics stats (accessible to all roles)

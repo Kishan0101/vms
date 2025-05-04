@@ -18,7 +18,7 @@ const userRoutes = require('./routes/users');
 const visitorRoutes = require('./routes/visitors');
 const analyticsRoutes = require('./routes/analytics');
 const accessControlRoutes = require('./routes/access-control');
-const settingsRoutes = require('./routes/Settings');
+const settingsRoutes = require('./routes/settings');
 
 // Routes
 try {
